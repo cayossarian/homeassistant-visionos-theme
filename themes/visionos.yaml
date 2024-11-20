@@ -15,6 +15,14 @@ visionos:
       ha-card-background: rgba(0, 0, 0, 0.3)
       app-theme-color: rgb(0, 0, 0)
   # Global
+
+  ###### WFF ##############
+  # Global Styles
+  ha-select:
+    z-index: 1000 !important;
+  .select-container:
+    z-index: 1000 !important;
+  ####### End WFF ###########
   lovelace-background: var(--background-image)
   primary-color: var(--orange-color)
   light-primary-color: "#B6B6C1" # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
